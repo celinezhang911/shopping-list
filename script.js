@@ -37,7 +37,6 @@ function addListAfterKeypress(event) {
 
 
 function del(){
-/*var queryli=document.querySelectorAll("li");*/
 for (i=0; i<listItems.length; i++){
 	listItems[i].addEventListener("click", changeClass);
 }
